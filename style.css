@@ -1,0 +1,40 @@
+ 
+@import url("style/reset.css");
+@import url("style/menu.css");
+@import url("style/title.css");
+@import url("style/sobre-mi.css");
+@import url("style/skills.css");
+@import url("style/hobbies.css");
+@import url("style/academic.css");
+@import url("style/experience.css");
+@import url("style/contacto.css");
+@import url("style/footer.css");
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+   --cor-de-descripcion:#ced7f1;
+   ----cor-de-cuadros:#ffffff;
+   ----color-de-boton: #2A7AE4;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;   
+    overflow-x: hidden; 
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+

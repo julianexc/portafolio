@@ -1,0 +1,52 @@
+
+.about{
+    display: flex;
+    background: var(--cor-de-descripcion);
+    gap: 10px;
+}
+
+.about__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    
+}
+
+.about__title{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media(min-width: 1024px){
+
+     .about{
+        display: flex;
+        padding: 0 100px;    
+        
+     }
+
+    .about__container{
+        display: flex;
+        padding: 16px 0;
+        width: 73%;
+
+    }
+    
+    .about__title{
+        font-size: 32px;
+        font-weight: 700;
+        
+    }
+
+    img{
+        width: auto;
+    }
+
+    .about__paragraph{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+}

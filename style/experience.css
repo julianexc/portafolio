@@ -1,0 +1,155 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding:32px; 
+    align-items: center;
+}
+
+.experience__section__title{
+    display: flex;
+    justify-content: center; 
+    
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+.experience__img{
+    display: flex;
+    width: 296px;
+    height: 144px;
+    gap: 0px;
+    opacity: 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.experience__title{
+    font-size: 16px;      
+    font-weight: 700;
+}
+
+.experience__text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.experience__info{
+display:flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.experience__description{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.experiencia__botao--repo,
+.experience__botao--demo{
+    width: 108px;
+    height:  40px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.44px;
+    border: 1px solid var(----color-de-boton);
+    color: var(----color-de-boton);
+    cursor: pointer;
+
+}
+
+
+ 
+
+.experience__botao--demo:hover,
+.experiencia__botao--repo:hover{
+    color: var(--cor-de-fundo);
+    background-color:var(----color-de-boton) ;
+    border: 1px solid var(--cor-de-fundo);
+}
+
+@media(min-width:768px){
+    .experiencie__box{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+
+   .experiencie__box:nth-of-type(2)
+    .experience__info h2.experience__title {
+    container-type: size;
+    display: flex;
+    align-items: self-end;
+}
+}
+   
+
+@media(min-width: 1024px){
+
+    .experience{
+        display: flex;
+        align-items: stretch;
+        padding: 32px 100px;
+
+    }
+
+    .experience__section__title{
+        display: flex;
+        font-size: 32px;
+    }
+    
+    .experiencie__box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .experiencie__box:nth-child(3),
+.experiencie__box:nth-child(5){
+    flex-direction: row-reverse;
+}
+
+    .experience__img{
+        display: flex;
+        width: 467px;
+        height: 255px;
+    }
+
+    .experience__title{
+        font-size: 22px;      
+        font-weight: 700;
+    }
+    
+    .experiencie__box:nth-of-type(2)
+    .experience__info h2.experience__title {
+   container-type: normal;
+
+    }
+
+    .experience__title h2{
+        font-size: 21px;
+         
+    }
+
+    .experience__text{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+}
+
+
+ 
